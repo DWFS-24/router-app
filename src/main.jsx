@@ -8,6 +8,7 @@ import {
 import './index.css'
 import AboutUs from './components/AboutUs.jsx';
 import Contact from './components/Contact.jsx';
+import Product from './components/Product.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/Contacto",
     element: <Contact /> ,
+  },
+  {
+    path: "/Articulo/:id",
+    element: <Product /> ,
   },
 ]);
 

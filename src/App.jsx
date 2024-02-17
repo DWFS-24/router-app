@@ -9,6 +9,7 @@ function App() {
       <div>
         <Link to={'/Contacto'} > Contacto </Link>
         <Link to={'/AcercaDe'} > Acerca De </Link>
+        <Link to={'/Articulo/1'} > Articulo 1 </Link>
       </div>
     </>
   )
